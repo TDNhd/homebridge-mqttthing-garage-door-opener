@@ -1,0 +1,43 @@
+{
+  "bridge": {
+    "name": "Homebridge",
+    "username": "CC:22:3D:E3:CE:30",
+    "manufacturer": "homebridge.io",
+    "model": "homebridge",
+    "port": 51826,
+    "pin": "031-45-154"
+  },
+
+  "description": "This is an example configuration file for the Homebridge MQTT-Thing Garage Door Opener",
+  "ports": {
+    "start": 52100,
+    "end": 52150,
+    "comment": "This section is used to control the range of ports that separate accessory (like camera or television) should be bind to."
+  },
+  "accessories": [
+{
+    "accessory": "mqttthing",
+    "type": "garageDoorOpener",
+    "name": "garage",
+    "url": "mqtts://localhost:8883",
+    "mqttOptions": { "cafile": "CA certificate location path" },
+    "mqttOptions": { "keyfile": "Server key location path" },
+    "mqttOptions": { "certfile": "Server certificate location path" },
+    "mqttOptions": { "insecure": true },
+    "mqttPubOptions": { "retain": true },
+    "logMqtt": true,
+    "topics":
+    {
+        "setTargetDoorState":       "garage/setTargetDoorState",
+        "getTargetDoorState":       "garage/getTargetDoorState",
+        "getCurrentDoorState":      "garage/getCurrentDoorState"
+    },
+    "doorCurrentValues": [ "Open", "Closed", "Opening", "Closing", "Stopped" ],
+    "doorTargetValues": ["open", "close"],
+    "lockValues": [ "Unsecured", "Secured", "Jammed",  "Unknown" ]
+}
+
+  ],
+
+  "platforms": []
+}
