@@ -7,3 +7,4 @@ Python script for a [homebridge-mqttthing](https://github.com/arachnetech/homebr
 
 ## Configuration
 |Key 	|Default 	|Description  |
+| -------------------- |----------------|--------------------|
