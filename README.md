@@ -24,7 +24,7 @@ Python script for a [homebridge-mqttthing](https://github.com/arachnetech/homebr
 |Key|Default|Description|
 |----------------|----|----------------------------------------------------------|
 |tls_set         |True|defines whether tls is used or not                        |
-|CA_crt|         |    |Path to your CA certificate                               |
-|Client_crt|     |    |Path to your Client certificate                           |
-|Client_key|     |    |Path to your Client key                                   |
+|CA_crt          |    |Path to your CA certificate                               |
+|Client_crt      |    |Path to your Client certificate                           |
+|Client_key      |    |Path to your Client key                                   |
 |tls_insecure_set|True|defines whether self_signed sertificate is accepted or not|
