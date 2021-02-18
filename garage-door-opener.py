@@ -74,6 +74,10 @@ while True:
         
     elif GPIO.input(reedOpen) == 0 and GPIO.input(reedClosed) == 0 and status != "unknown":
         client.publish(topic="garage/getCurrentDoorState", payload=last, qos=1, retain=True)
+        if last == "Closing":
+            client.publish(topic="garage/getTargetDoorState", payload="close", qos=1, retain=True)
+        elif last == "Opening":
+            client.publish(topic="garage/getTargetDoorState", payload="open", qos=1, retain=True)
         status = "unknown"
     time.sleep(0.1)
 
