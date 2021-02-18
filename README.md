@@ -6,15 +6,15 @@ Python script for a [homebridge-mqttthing](https://github.com/arachnetech/homebr
 2. [homebridge-mqttthing](https://github.com/arachnetech/homebridge-mqttthing) plugin installed
 
 ## Installation
-* Install the Python [paho-mqtt](https://github.com/eclipse/paho.mqtt.python)
+* Install the Python [paho-mqtt](https://github.com/eclipse/paho.mqtt.python) module
 ```
 pip install paho-mqtt
 ```
-* Install the Python [configparser](https://pypi.org/project/configparser/)
+* Install the Python [configparser](https://pypi.org/project/configparser/) module
 ```
 pip install configparser
 ```
-* Install the Python [RPi.GPIO](https://pypi.org/project/RPi.GPIO/)
+* Install the Python [RPi.GPIO](https://pypi.org/project/RPi.GPIO/) module
 ```
 pip install RPi.GPIO
 ```
