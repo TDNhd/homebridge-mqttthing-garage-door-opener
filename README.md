@@ -45,5 +45,17 @@ $ pip install RPi.GPIO
 |`tls_insecure_set`|`True`|defines whether self_signed sertificate is accepted or not|
 
 ### Configuration of the **mosquitto.conf**
-
+|Key|Default|Description|
+|----------|------------|-----------|
+|`listener`|`1833`|Default is port is `1833`, change to `8883` if you're using TLS|
+|`cafile`||CA certificate location path|
+|`certfile`||Server certificate location path|
+|`keyfile`||Server key location path|
+|`require_certificate`||defines whether self_signed sertificate is accepted or not|
+|`tls_version`|||
+|`persistence`|||
+|`persistence_location`|||
+|`autosave_interval`|||
+|`autosave_on-changes|||
+more on this topic [here]()
 Here's an example [mosquitto-example.conf](https://github.com/TDNhd/homebridge-mqttthing-garage-door-opener/blob/main/mosquitto-example.conf)
