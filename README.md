@@ -6,7 +6,7 @@ Python script for a [homebridge-mqttthing](https://github.com/arachnetech/homebr
 2. [homebridge-mqttthing](https://github.com/arachnetech/homebridge-mqttthing) plugin installed
 
 ## Configuration
-###* GPIO
+### GPIO
 |Key|Default|Description|
 | --------------------|----------------|------------------------|
 |relay|17|sets the pin responsible for controling the relay|
