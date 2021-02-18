@@ -5,6 +5,19 @@ Python script for a [homebridge-mqttthing](https://github.com/arachnetech/homebr
 1. [homebridge](https://github.com/homebridge/homebridge) server installed
 2. [homebridge-mqttthing](https://github.com/arachnetech/homebridge-mqttthing) plugin installed
 
+## Installation
+* Install the Python [paho-mqtt](https://github.com/eclipse/paho.mqtt.python)
+```
+pip install paho-mqtt
+```
+* Install the Python [configparser](https://pypi.org/project/configparser/)
+```
+pip install configparser
+```
+* Install the Python [RPi.GPIO](https://pypi.org/project/RPi.GPIO/)
+```
+pip install RPi.GPIO
+```
 ## Configuration
 Configuration of the [config.ini](https://github.com/TDNhd/homebridge-mqttthing-garage-door-opener/blob/main/config.ini)
 * #### GPIO
