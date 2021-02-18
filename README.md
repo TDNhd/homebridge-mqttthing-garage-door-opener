@@ -4,3 +4,6 @@ Python script for a [homebridge-mqttthing](https://github.com/arachnetech/homebr
 ## Prerequisites
 1. [homebridge](https://github.com/homebridge/homebridge) server installed
 2. [homebridge-mqttthing](https://github.com/arachnetech/homebridge-mqttthing) plugin installed
+
+## Configuration
+|Key 	|Default 	|Description  |
