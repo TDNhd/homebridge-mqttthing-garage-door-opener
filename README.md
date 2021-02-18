@@ -6,6 +6,7 @@ Python script for a [homebridge-mqttthing](https://github.com/arachnetech/homebr
 2. [homebridge-mqttthing](https://github.com/arachnetech/homebridge-mqttthing) plugin installed
 
 ## Configuration
+Configuration of the [config.ini](https://github.com/TDNhd/homebridge-mqttthing-garage-door-opener/blob/main/config.ini)
 * #### GPIO
 |Key|Default|Description|
 |------------|----|--------------------------------------------------------------------------------|
