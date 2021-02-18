@@ -4,6 +4,7 @@ Python script for a [homebridge-mqttthing](https://github.com/arachnetech/homebr
 ## Prerequisites
 1. [homebridge](https://github.com/homebridge/homebridge) server installed
 2. [homebridge-mqttthing](https://github.com/arachnetech/homebridge-mqttthing) plugin installed
+3. [mosquitto](https://mosquitto.org/blog/2013/01/mosquitto-debian-repository/) installed
 
 ## Installation
 * Install the Python [paho-mqtt](https://github.com/eclipse/paho.mqtt.python) module
