@@ -8,15 +8,15 @@ Python script for a [homebridge-mqttthing](https://github.com/arachnetech/homebr
 ## Installation
 * Install the Python [paho-mqtt](https://github.com/eclipse/paho.mqtt.python) module
 ```
-pip install paho-mqtt
+$ pip install paho-mqtt
 ```
 * Install the Python [configparser](https://pypi.org/project/configparser/) module
 ```
-pip install configparser
+$ pip install configparser
 ```
 * Install the Python [RPi.GPIO](https://pypi.org/project/RPi.GPIO/) module
 ```
-pip install RPi.GPIO
+$ pip install RPi.GPIO
 ```
 ## Configuration
 Configuration of the [config.ini](https://github.com/TDNhd/homebridge-mqttthing-garage-door-opener/blob/main/config.ini)
