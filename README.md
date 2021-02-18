@@ -20,7 +20,7 @@ $ pip install configparser
 $ pip install RPi.GPIO
 ```
 ## Configuration
-Configuration of the [config.ini](https://github.com/TDNhd/homebridge-mqttthing-garage-door-opener/blob/main/config.ini)
+### Configuration of the [config.ini](https://github.com/TDNhd/homebridge-mqttthing-garage-door-opener/blob/main/config.ini)
 * #### GPIO
 |Key|Default|Description|
 |------------|----|--------------------------------------------------------------------------------|
@@ -43,3 +43,7 @@ Configuration of the [config.ini](https://github.com/TDNhd/homebridge-mqttthing-
 |`Client_crt`      |      |Path to your Client certificate                           |
 |`Client_key`      |      |Path to your Client key                                   |
 |`tls_insecure_set`|`True`|defines whether self_signed sertificate is accepted or not|
+
+### Configuration of the **mosquitto.conf**
+
+Here's an example [mosquitto-example.conf](https://github.com/TDNhd/homebridge-mqttthing-garage-door-opener/blob/main/mosquitto-example.conf)
