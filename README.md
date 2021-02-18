@@ -6,5 +6,5 @@ Python script for a [homebridge-mqttthing](https://github.com/arachnetech/homebr
 2. [homebridge-mqttthing](https://github.com/arachnetech/homebridge-mqttthing) plugin installed
 
 ## Configuration
-|Key 	|Default 	|Description  |
+|Key            	|Default      	|Description                          |
 | -------------------- |----------------|--------------------|
