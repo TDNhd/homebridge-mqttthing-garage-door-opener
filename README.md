@@ -57,5 +57,7 @@ $ pip install RPi.GPIO
 |`persistence_location`|||
 |`autosave_interval`|||
 |`autosave_on-changes|||
+
 more on this topic [here]()
+
 Here's an example [mosquitto-example.conf](https://github.com/TDNhd/homebridge-mqttthing-garage-door-opener/blob/main/mosquitto-example.conf)
