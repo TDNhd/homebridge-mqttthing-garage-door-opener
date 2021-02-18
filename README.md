@@ -6,21 +6,21 @@ Python script for a [homebridge-mqttthing](https://github.com/arachnetech/homebr
 2. [homebridge-mqttthing](https://github.com/arachnetech/homebridge-mqttthing) plugin installed
 
 ## Configuration
-### GPIO
+|### GPIO|
 |Key|Default|Description|
 |-|-|-|
 |relay|17|sets the pin responsible for controling the relay|
 |reedOpen|5|sets the pin responsible for reading the reedswitch state in the closed position|
 |reedClosed|12|sets the pin responsible for reading the reedswitch state in the open position|
 
-### mqtt
+|### mqtt|
 |Key|Default|Description|
 |-|-|-|
 |brokerAdress||(Ip) adress of your broker|
 |port|1833|port used|
 client_id|"garage"|client ID for connecting to mqtt server|
 
-### tls
+|### tls|
 |Key|Default|Description|
 |-|-|-|
 |tls_set|True|defines whether tls is used or not|
